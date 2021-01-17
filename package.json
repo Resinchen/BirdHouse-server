@@ -1,0 +1,21 @@
+{
+  "name": "bird-house-server",
+  "version": "1.0.0",
+  "description": "Backend for smart bird feeders",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "Alexander Chernetsov <alex1410alex@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.14",
+    "mongoose-double": "0.0.1",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "twit": "^2.2.11"
+  }
+}
